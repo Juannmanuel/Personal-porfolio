@@ -11,7 +11,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Juan Manuel | Personal Portfolio",
-  description: "Ricardo is a full-stack developer with 8 years of experience.",
+  description: "Juan Manuel, Full Stack developer.",
 };
 /*en la linea 27 y 28 se definen los colores para el backgroun tanto oscutro como l*/ 
 export default function RootLayout({
