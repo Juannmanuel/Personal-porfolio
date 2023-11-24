@@ -3,6 +3,8 @@
 import { useRef } from "react";
 import { projectsData } from "@/lib/data";
 import Image from "next/image";
+import { IoLogoGithub } from "react-icons/io";
+import { IoEarthSharp } from "react-icons/io5";
 import { motion, useScroll, useTransform } from "framer-motion";
 
 type ProjectProps = (typeof projectsData)[number];
@@ -12,6 +14,7 @@ export default function Project({
   description,
   tags,
   imageUrl,
+  webSite
 }: ProjectProps) {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
@@ -47,7 +50,7 @@ export default function Project({
             ))}
           </ul>
         </div>
-
+        <a href={webSite} target="_blank">
         <Image
           src={imageUrl}
           alt="Project I worked on"
@@ -63,8 +66,11 @@ export default function Project({
         group-even:group-hover:translate-y-3
         group-even:group-hover:rotate-2
 
-        group-even:right-[initial] group-even:-left-40"
+        group-even:right-[initial] group-even:-left-40 cursor-pointer"
+        title="Visita mi proyecto"
+        
         />
+        </a>
       </section>
     </motion.div>
   );

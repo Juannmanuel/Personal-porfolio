@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
 
 export default function About() {
-  const { ref } = useSectionInView("About");
+  const { ref } = useSectionInView("Biografía");
 
   return (
     <motion.section
@@ -17,33 +17,23 @@ export default function About() {
       transition={{ delay: 0.175 }}
       id="about"
     >
-      <SectionHeading>About me</SectionHeading>
+      <SectionHeading>Quién soy</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
-      </p>
-
-      <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
+        Con una sólida experiencia en ventas, decidí cambiar mi rumbo y
+        sumergirme en el mundo del <span className="underline">desarrollo web</span>, graduándome como  <span className="italic">Full Stack
+        en el Bootcamp de Henry</span>. Lo que más disfruto de programar es la
+        irresistible frustración que surge al enfrentarme a nuevos desafíos,
+        seguida de las satisfacciones inmediatas que acompañan a la  <span className="italic"> resolución
+        de problemas</span>. Mis <span className="underline">habilidades</span> se centran en  <span className="italic">React, Next, Node,
+        JavaScript, Express y Sequelize</span> , con <span className="underline">experiencia</span>  en TypeScript y
+        Tailwind. En mi tiempo libre, me dedico a mi pasión por la fotografía y
+        soy un amante del cine, especialmente de Quentin Tarantino, con  <span className="underline">"Pulp
+        Fiction"</span>  como mi película favorita. Actualmente,<span className="font-medium">busco una posición a
+        tiempo completo como desarrollador de software</span> , ansioso por aportar mi
+        experiencia y pasión a nuevos desafíos.
       </p>
     </motion.section>
   );
 }
+
+/* <span className="underline"></span> Subrayado // <span className="italic"></span> otra tipografia //<span className="font-medium"></span> */
