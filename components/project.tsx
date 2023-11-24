@@ -7,7 +7,7 @@ import { IoLogoGithub } from "react-icons/io";
 import { IoEarthSharp } from "react-icons/io5";
 import { motion, useScroll, useTransform } from "framer-motion";
 
-type ProjectProps = (typeof projectsData)[number];
+type ProjectProps = (typeof projectsData)[number] & {website: string};
 
 export default function Project({
   title,
