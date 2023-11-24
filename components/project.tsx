@@ -14,7 +14,7 @@ export default function Project({
   description,
   tags,
   imageUrl,
-  webSite
+  website
 }: ProjectProps) {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
@@ -50,7 +50,7 @@ export default function Project({
             ))}
           </ul>
         </div>
-        <a href={webSite} target="_blank">
+        <a href={website} target="_blank">
         <Image
           src={imageUrl}
           alt="Project I worked on"
