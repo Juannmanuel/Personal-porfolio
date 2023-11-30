@@ -7,5 +7,5 @@ export type ProjectProps = {
   description: string;
   tags: string[];
   imageUrl: string;
-  website: string;  // Agrega esta línea
+  website: string;  
 };
