@@ -20,6 +20,7 @@ type ContactFormEmailProps = {
 export default function ContactFormEmail({
   message,
   senderEmail,
+  
 }: ContactFormEmailProps) {
   return (
     <Html>
