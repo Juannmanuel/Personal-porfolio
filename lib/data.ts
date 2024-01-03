@@ -3,7 +3,7 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import ADIPWeb from "@/public/ADIPWeb.jpeg";
-import countries from "@/public/countries.jpeg";
+import food from "@/public/food.jpg";
 import rickandmorty from "@/public/rickandmorty.jpeg";
 
 export const links = [
@@ -69,11 +69,11 @@ export const projectsData = [
     website: "https://front-deploy-adipweb.onrender.com/"
   },
   {
-    title: "Countries - Proyecto Individual",
+    title: "lassTime Food - Proyecto Individual",
     description: "Proyecto individual del bootcamp de Henry para aprobar la 4ta etapa del cursado",
-    tags: ["React", "JavaScript", "Redux", "CSS", "Sequelize", "PostgreSQL"],
-    imageUrl: countries,
-    website: "https://countries-front-rosy.vercel.app/home"
+    tags: ["React", "JavaScript", "Redux", "CSS", "Sequelize", "PostgreSQL", "vite"],
+    imageUrl: food,
+    website: "https://lass-time-food.vercel.app/"
   },
   {
     title: "Rick and Morty",
