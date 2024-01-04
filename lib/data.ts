@@ -85,7 +85,7 @@ export const projectsData = [
   },
   {
     title: "lassTime ecommerce",
-    description: "LassTime Ecommerce es un proyecto personal creado durante mi tiempo en el bootcamp de Henry. Este sitio web fue desarrollado como una plataforma de práctica, permitiéndome aplicar y consolidar mis habilidades. Explora el resultado en vivo y descubre mi enfoque en la mejora continua",
+    description: "LassTime Ecommerce es un proyecto personal desarrollado como una plataforma de práctica. Explora el resultado y descubre mi enfoque en la mejora continua",
     tags: ["React", "vite","Redux","SQL", "CSS", "JavaScript"],
     imageUrl: portadaLassTimeEcommerce,
     website: "https://lass-time.vercel.app"
