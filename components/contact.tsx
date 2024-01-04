@@ -36,7 +36,7 @@ export default function Contact() {
         <a className="underline">
           juanmanuel.jmg200@gmail.com
         </a>{" "}
-        o através de este formulario.
+        o a través de este formulario.
       </p>
 
       <form
