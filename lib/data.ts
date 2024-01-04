@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import ADIPWeb from "@/public/ADIPWeb.jpeg";
 import food from "@/public/food.jpg";
 import rickandmorty from "@/public/rickandmorty.jpeg";
+import portadaLassTimeEcommerce from "@/public/portadaLassTimeEcommerce.jpeg";
 
 export const links = [
   {
@@ -81,6 +82,13 @@ export const projectsData = [
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
     imageUrl: rickandmorty,
     website: "https://rickandmorty.fandom.com/es/wiki/Rickipedia"
+  },
+  {
+    title: "lassTime ecommerce",
+    description: "LassTime Ecommerce es un proyecto personal creado durante mi tiempo en el bootcamp de Henry. Este sitio web fue desarrollado como una plataforma de práctica, permitiéndome aplicar y consolidar mis habilidades. Explora el resultado en vivo y descubre mi enfoque en la mejora continua",
+    tags: ["React", "vite","Redux","SQL", "CSS", "JavaScript"],
+    imageUrl: portadaLassTimeEcommerce,
+    website: "https://lass-time.vercel.app"
   }
 ] as const;
 
