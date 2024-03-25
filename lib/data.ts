@@ -59,6 +59,14 @@ export const experiencesData = [
     icon: React.createElement(FaReact),
     date: "2023",
   },
+  {
+    title: "Quiero mi tarjeta!",
+    location: "Mendoza, Argentina",
+    description:
+      "Como desarrollador Front-End, colaboré en la creación de una plataforma web para `Quiero mi tarjeta!`. Utilicé HTML, CSS y JavaScript para crear una experiencia atractiva y funcional. Los usuarios pueden explorar y personalizar diseños de tarjetas, realizar pedidos fácilmente y disfrutar de una navegación intuitiva.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2024",
+  }
 ] as const;
 
 export const projectsData = [
