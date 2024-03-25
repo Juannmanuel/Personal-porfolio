@@ -6,6 +6,7 @@ import ADIPWeb from "@/public/ADIPWeb.jpeg";
 import food from "@/public/food.jpg";
 import rickandmorty from "@/public/rickandmorty.jpeg";
 import portadaLassTimeEcommerce from "@/public/portadaLassTimeEcommerce.jpeg";
+import quieroMiTarjeta from "@/public/QuieroMiTarjeta.jpeg";
 
 export const links = [
   {
@@ -97,6 +98,13 @@ export const projectsData = [
     tags: ["React", "vite","Redux","SQL", "CSS", "JavaScript"],
     imageUrl: portadaLassTimeEcommerce,
     website: "https://lass-time.vercel.app"
+  },
+  {
+    title: "Quiero mi tarjeta!",
+    description: "Como desarrollador Front-End, colaboré en la creación de una plataforma web para diseño de tarjetas. Realizando una experiencia intuitiva y funcional. Los usuarios pueden explorar y personalizar diseños fácilmente",
+    tags: ["React", "vite","Redux", "CSS", "JavaScript", "Framer"],
+    imageUrl: quieroMiTarjeta,
+    website: "https://misquince-two.vercel.app/"
   }
 ] as const;
 
