@@ -68,7 +68,16 @@ export const experiencesData = [
       "Como desarrollador Front-End, colaboré en la creación de una plataforma web para `Quiero mi tarjeta!`. Utilicé HTML, CSS y JavaScript para crear una experiencia atractiva y funcional. Los usuarios pueden explorar y personalizar diseños de tarjetas, realizar pedidos fácilmente y disfrutar de una navegación intuitiva.",
     icon: React.createElement(CgWorkAlt),
     date: "2024",
+  },
+  {
+    title: "BoonRod Urban Style",
+    location: "Mendoza, Argentina",
+    description:
+      "Como desarrollador Full-Stack, lideré el desarrollo completo de la plataforma eCommerce de Boonrod, una marca de ropa urbana. Me encargué de todos los aspectos del proyecto, desde el backend con base de datos y servidor, hasta el frontend, incluyendo el diseño visual y la fotografía de productos. La plataforma ofrece una experiencia de compra fluida, permitiendo a los usuarios explorar el catálogo, seleccionar tallas y realizar pedidos fácilmente.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2024"
   }
+  
 ] as const;
 
 export const projectsData = [
@@ -81,7 +90,7 @@ export const projectsData = [
   },
   {
     title: "Quiero mi tarjeta!",
-    description: "Creación de una plataforma web para diseño de tarjetas. Realizando una experiencia intuitiva y funcional. Los usuarios pueden explorar y personalizar diseños fácilmente",
+    description: "Como desarrollador Front-End, trabajé en la creación de una plataforma web para Quiero mi tarjeta!. Utilicé HTML, CSS y JavaScript para permitir a los usuarios personalizar tarjetas de cumpleaños de quince. Los usuarios pueden subir fotos, añadir detalles de la fiesta, y recibir un enlace listo para compartir su tarjeta de forma sencilla e intuitiva.",
     tags: ["React", "vite","Redux", "CSS", "JavaScript", "Framer"],
     imageUrl: quieroMiTarjeta,
     website: "https://misquince-two.vercel.app/"
