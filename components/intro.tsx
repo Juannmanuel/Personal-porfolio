@@ -1,11 +1,11 @@
 "use client";
 
 import Image from "next/image";
-import imageProfile from "../public/imageProfile.jpeg"
+import imageProfile from "../public/imageProfile.jpeg";
 import React from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { BsArrowRight, BsLinkedin} from "react-icons/bs";
+import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { RiInstagramFill } from "react-icons/ri";
 import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
@@ -55,7 +55,7 @@ export default function Intro() {
               duration: 0.7,
             }}
           >
-           <FaReact />
+            <FaReact />
           </motion.span>
         </div>
       </div>
@@ -65,11 +65,11 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hola, mi nombre es Juan Manuel.</span> Soy{" "}
-        <span className="font-bold">desarollador full-stack.</span>{" "}Mi{" "}
-        <span className="font-bold">trabajo es</span>{" "}
-        <span className="underline">convertir ideas en experiencias de usuarios</span>
-
+        <span className="font-bold">Hola, mi nombre es Juan Manuel.</span> Soy
+        desarrollador full-stack. Mi trabajo es{" "}
+        <span className="font-bold underline">
+          convertir ideas en experiencias de usuario.
+        </span>
       </motion.h1>
 
       <motion.div
