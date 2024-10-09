@@ -7,6 +7,7 @@ import food from "@/public/food.jpg";
 import rickandmorty from "@/public/rickandmorty.jpeg";
 import portadaLassTimeEcommerce from "@/public/portadaLassTimeEcommerce.jpeg";
 import quieroMiTarjeta from "@/public/QuieroMiTarjeta.jpeg";
+import boonRod from "@/public/boonrod.jpeg"
 
 export const links = [
   {
@@ -72,11 +73,18 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "ADIP Web",
-    description: "Página web para el club deportivo ADIP de la provincia de Buenos Aires, La Plata, Argentina",
-    tags: ["React", "Vite", "Nest.js", "Material UI", "JavaScript", "TypeScript", "Framer"],
-    imageUrl: ADIPWeb,
-    website: "https://front-deploy-adipweb.onrender.com/"
+    title: "BoonRod",
+    description: "Desarrollo de una plataforma eCommerce para Boonrod, marca de ropa urbana. Se implementó una experiencia de compra sencilla y funcional para explorar y adquirir sus productos.",
+    tags: ["React", "Redux", "PostgresSQL", "JavaScript", "HTML", "CSS", "Sequelize", "Express.js"],
+    imageUrl: boonRod,
+    website: "https://boonrod.vercel.app"
+  },
+  {
+    title: "Quiero mi tarjeta!",
+    description: "Creación de una plataforma web para diseño de tarjetas. Realizando una experiencia intuitiva y funcional. Los usuarios pueden explorar y personalizar diseños fácilmente",
+    tags: ["React", "vite","Redux", "CSS", "JavaScript", "Framer"],
+    imageUrl: quieroMiTarjeta,
+    website: "https://misquince-two.vercel.app/"
   },
   {
     title: "lassTime Food - Proyecto Individual",
@@ -84,6 +92,13 @@ export const projectsData = [
     tags: ["React", "JavaScript", "Redux", "CSS", "Sequelize", "PostgreSQL", "vite"],
     imageUrl: food,
     website: "https://lass-time-food.vercel.app/"
+  },
+  {
+    title: "ADIP Web",
+    description: "Página web para el club deportivo ADIP de la provincia de Buenos Aires, La Plata, Argentina",
+    tags: ["React", "Vite", "Nest.js", "Material UI", "JavaScript", "TypeScript", "Framer"],
+    imageUrl: ADIPWeb,
+    website: "https://front-deploy-adipweb.onrender.com/"
   },
   {
     title: "Rick and Morty",
@@ -99,13 +114,7 @@ export const projectsData = [
     imageUrl: portadaLassTimeEcommerce,
     website: "https://lass-time.vercel.app"
   },
-  {
-    title: "Quiero mi tarjeta!",
-    description: "Como desarrollador Front-End, colaboré en la creación de una plataforma web para diseño de tarjetas. Realizando una experiencia intuitiva y funcional. Los usuarios pueden explorar y personalizar diseños fácilmente",
-    tags: ["React", "vite","Redux", "CSS", "JavaScript", "Framer"],
-    imageUrl: quieroMiTarjeta,
-    website: "https://misquince-two.vercel.app/"
-  }
+
 ] as const;
 
 export const skillsData = [
