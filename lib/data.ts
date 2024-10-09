@@ -75,7 +75,7 @@ export const projectsData = [
   {
     title: "BoonRod",
     description: "Desarrollo de una plataforma eCommerce para Boonrod, marca de ropa urbana. Se implementó una experiencia de compra sencilla y funcional para explorar y adquirir sus productos.",
-    tags: ["React", "Redux", "PostgresSQL", "JavaScript", "HTML", "CSS", "Sequelize", "Express.js"],
+    tags: ["React", "Redux", "SQL", "JavaScript", "HTML", "CSS", "Express.js"],
     imageUrl: boonRod,
     website: "https://boonrod.vercel.app"
   },
