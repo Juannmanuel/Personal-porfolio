@@ -8,6 +8,7 @@ import rickandmorty from "@/public/rickandmorty.jpeg";
 import portadaLassTimeEcommerce from "@/public/portadaLassTimeEcommerce.jpeg";
 import quieroMiTarjeta from "@/public/QuieroMiTarjeta.jpeg";
 import boonRod from "@/public/boonrod.jpeg"
+import supply from "@/public/supply.jpeg"
 
 export const links = [
   {
@@ -76,6 +77,14 @@ export const experiencesData = [
       "Como desarrollador Full-Stack, lideré el desarrollo completo de la plataforma eCommerce de Boonrod, una marca de ropa urbana. Me encargué de todos los aspectos del proyecto, desde el backend con base de datos y servidor, hasta el frontend, incluyendo el diseño visual y la fotografía de productos. La plataforma ofrece una experiencia de compra fluida, permitiendo a los usuarios explorar el catálogo, seleccionar tallas y realizar pedidos fácilmente.",
     icon: React.createElement(CgWorkAlt),
     date: "2024"
+  },
+  {
+    title: "Soluciones Digitales",
+    location: "Córdoba, Argentina",
+    description:
+      "Desarrollo de páginas web completas para campañas de marketing de Google Ads y Meta, optimizando rendimiento y diseño",
+    icon: React.createElement(CgWorkAlt),
+    date: "2025"
   }
   
 ] as const;
@@ -87,6 +96,13 @@ export const projectsData = [
     tags: ["React", "Redux", "SQL", "JavaScript", "HTML", "CSS", "Express.js"],
     imageUrl: boonRod,
     website: "https://boonrod.vercel.app"
+  },
+  {
+    title: "Supply Argentina",
+    description: "Desarrollo completo de la plataforma web para Supply Argentina, empresa dedicada a la fabricación de productos plásticos industriales. El proyecto incluyó el diseño y la implementación de un sitio funcional, que integra un pequeño eCommerce para facilitar pedidos en línea de sus productos.",
+    tags: ["React", "Redux", "SQL", "JavaScript", "HTML", "CSS", "Express.js"],
+    imageUrl: supply,
+    website: "https://www.supplyargentina.com.ar/"
   },
   {
     title: "Quiero mi tarjeta!",

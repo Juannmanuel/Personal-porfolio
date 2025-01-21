@@ -65,10 +65,13 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hola, mi nombre es Juan Manuel.</span> Soy
-        desarrollador full-stack. Mi trabajo es{" "}
+        <span className="font-bold">Juan Manuel</span>
+        <br />
+        <span className="">Desarrollador Web</span>
+        <br />
+
         <span className="font-bold underline">
-          convertir ideas en experiencias de usuario.
+          convierto ideas en experiencias de usuario.
         </span>
       </motion.h1>
 
